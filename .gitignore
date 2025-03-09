@@ -1,0 +1,26 @@
+# Игнорирование временных файлов и кэша
+*.log
+*.tmp
+*.cache
+
+# Игнорирование системных файлов
+.DS_Store           # macOS
+Thumbs.db           # Windows
+desktop.ini         # Windows
+
+# Игнорирование папок с зависимостями (если позже добавите npm/yarn)
+node_modules/
+
+# Игнорирование конфиденциальных данных
+*.env
+*.key
+*.pem
+
+# Игнорирование сгенерированных файлов
+dist/
+build/
+
+# Игнорирование редакторов и IDE
+.vscode/            # Visual Studio Code
+.idea/              # IntelliJ IDEA
+*.sublime-*         # Sublime Text

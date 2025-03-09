@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>SpaceX Starship Lander</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="game-container">
+    <canvas id="gameCanvas"></canvas>
+    <div id="game-stats">
+      Скорость: <span id="velocity">0.0</span> м/с<br>
+      Высота: <span id="altitude">1000.0</span> м<br>
+      Топливо: <span id="fuel">200</span>
+    </div>
+    <div id="instructions">
+      <h2>SpaceX Starship</h2>
+      <p>Управление: ↑ тяга вверх, ← → маневры в стороны</p>
+      <p>Посадите корабль на площадку со скоростью < 2 м/с</p>
+    </div>
+    <div id="mobile-controls">
+      <div class="control-btn" id="left-btn">←</div>
+      <div class="control-btn" id="thrust-btn">↑</div>
+      <div class="control-btn" id="right-btn">→</div>
+    </div>
+    <div id="game-over">
+      <h2 id="result-text">Игра окончена</h2>
+      <p id="result-details"></p>
+      <button id="restart-btn">Новая игра</button>
+    </div>
+    <button id="start-btn">ЗАПУСК</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
