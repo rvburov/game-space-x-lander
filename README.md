@@ -25,7 +25,7 @@
    ```
 2. Перейдите в папку проекта:
    ```bash
-   cd space-x-lander
+   cd game-space-x-lander
    ```
 3. Откройте файл `index.html` в современном браузере (Chrome, Firefox, Edge и т.д.).
 
