@@ -4,9 +4,9 @@
 *.cache
 
 # Игнорирование системных файлов
-.DS_Store           # macOS
-Thumbs.db           # Windows
-desktop.ini         # Windows
+.DS_Store           
+Thumbs.db          
+desktop.ini         
 
 # Игнорирование папок с зависимостями (если позже добавите npm/yarn)
 node_modules/
@@ -21,6 +21,6 @@ dist/
 build/
 
 # Игнорирование редакторов и IDE
-.vscode/            # Visual Studio Code
-.idea/              # IntelliJ IDEA
-*.sublime-*         # Sublime Text
+.vscode/            
+.idea/              
+*.sublime-*         
