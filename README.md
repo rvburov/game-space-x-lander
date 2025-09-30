@@ -58,4 +58,3 @@ game-space-x-lander/
 
 ## Скриншоты
 ![Игровой процесс](gameplay.png)
-```
